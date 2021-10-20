@@ -16,6 +16,16 @@ body, html {
   background-size: contain;
 }
 
+.reporte {
+  height: 100%;
+  width: 100%; 
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
 .p2{
   background-image: url('slides/2.svg');
 }
