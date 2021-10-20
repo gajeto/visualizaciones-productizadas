@@ -1,0 +1,94 @@
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+
+.parallax {
+  /* Full height */
+  height: 100%;
+  width: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.p2{
+  background-image: url('slides/2.svg');
+}
+
+.p3{
+  background-image: url('slides/3.svg');
+}
+
+.p4{
+  background-image: url('slides/4.svg');
+}
+
+.p5{
+  background-image: url('slides/5.svg');
+}
+
+.p6{
+  background-image: url('slides/6.svg');
+}
+
+.p7{
+  background-image: url('slides/7.svg');
+}
+
+.p8{
+  background-image: url('slides/8.svg');
+}
+
+.p9{
+  background-image: url('slides/9.svg');
+}
+
+.p10{
+  background-image: url('slides/10.svg');
+}
+
+.p11{
+  background-image: url('slides/11.svg');
+}
+
+.p12{
+  background-image: url('slides/12.svg');
+}
+
+.p13{
+  background-image: url('slides/13.svg');
+}
+
+.p14{
+  background-image: url('slides/14.svg');
+}
+
+.p15{
+  background-image: url('slides/15.svg');
+}
+
+.p16{
+  background-image: url('slides/16.svg');
+}
+
+.p17{
+  background-image: url('slides/17.svg');
+}
+
+.p18{
+  background-image: url('slides/18.svg');
+}
+
+.p19{
+  background-image: url('slides/19.svg');
+}
+
+.p20{
+  background-image: url('slides/20.svg');
+}
+
