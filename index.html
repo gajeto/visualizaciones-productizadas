@@ -4,22 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualizaciones productizadas</title>
+    <title>Demo interpretador</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="icono.png" type="image/x-icon">
 </head>
 <body>
 
-    <video autoplay="" playsinline="" muted="" loop="" class="parallax">
-        <source type="video/mp4" src="intro2.mp4">
-    </video>
-
+  <div class="parallax p1"></div>  
   <div class="parallax p2"></div>
   <div class="parallax p3"></div>  
   <div class="parallax p4"></div>
-  <div class="parallax p5"></div>  
- <iframe class="parallax" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiOWUyMzE3N2UtOWE0OC00NmQ3LWJmZDgtZTNlZWUyZGRmYTM4IiwidCI6ImZkNjljZTFiLTIwYzYtNDJlYy1iNTRlLTZkMWIzODcwYWM2ZSIsImMiOjR9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
- <div class="parallax p22"></div> 
+  <div class="parallax p5"></div>
+  <iframe width="100%" height="100%" src="https://app.powerbi.com/view?r=eyJrIjoiZjI4Y2YxNDItOTNhNi00NjJkLTgzNTctMDcxOGM0MWE3YmM2IiwidCI6ImZkNjljZTFiLTIwYzYtNDJlYy1iNTRlLTZkMWIzODcwYWM2ZSIsImMiOjR9&pageName=ReportSectione606a674a6be51234980" frameborder="0" allowFullScreen="true"></iframe>
+  <div class="parallax p6"></div>  
+   
+  <div class="parallax" id="comparison">
+    <figure>
+      <div id="divisor"></div>
+    </figure>
+    <input type="range" min="0" max="100" value="93" id="slider" oninput="moveDivisor()">
+  </div>
+  <div class="parallax p7"></div> 
+  <div class="parallax" id="comparison2">
+    <figure>
+      <div id="divisor2"></div>
+    </figure>
+    <input type="range" min="0" max="100" value="93" id="slider2" oninput="moveDivisor2()">
+  </div>
+  
+  <div class="parallax p10"></div>    
+  <div class="parallax p11"></div>  
+  <div class="parallax p12"></div>  
+  <div class="parallax p13"></div>  
+  <div class="parallax p14"></div>  
+  <div class="parallax p15"></div>  
+  <div class="parallax p16"></div>  
+  <div class="parallax p17"></div>  
+  <div class="parallax p18"></div>  
+  <div class="parallax p19"></div>  
+  <div class="parallax p20"></div>  
+  
+
+ <script>
+    var divisor = document.getElementById("divisor"),
+    slider = document.getElementById("slider");
+    function moveDivisor() { 
+	    divisor.style.width = slider.value+"%";
+    }
+
+    var divisor2 = document.getElementById("divisor2"),
+    slider2 = document.getElementById("slider2");
+    function moveDivisor2() { 
+	    divisor2.style.width = slider2.value+"%";
+    }
+ </script>
 </body>
 </html>
 
